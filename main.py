@@ -1,6 +1,6 @@
-from models.Alien import Alien
-from models.Astronaut import Astronaut
-from models.Commander import Commander
+from models.alien import Alien
+from models.astronaut import Astronaut
+from models.commander import Commander
 
 alien1 = Alien("Zgyox", 3.0, True)
 astronaut1 = Astronaut("Francisca Pasare", 4.5, "Pamant")

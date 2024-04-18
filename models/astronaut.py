@@ -1,4 +1,4 @@
-from Human import Human
+from models.human import Human
 
 
 class Astronaut(Human):
