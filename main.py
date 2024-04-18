@@ -1,11 +1,11 @@
-from Alien import Alien
-from Astronaut import Astronaut
-from Commander import Commander
+from models.Alien import Alien
+from models.Astronaut import Astronaut
+from models.Commander import Commander
 
-alien1 = Alien("Zgyox",3.0,True)
-astronaut1 = Astronaut("Francisca Pasare",4.5,"Pamant")
-astronaut2 = Astronaut("Chiricuta Marina",1.2,"Pamant")
-astronaut3 = Astronaut("Alhafez Nabil",-5.5,"Saturn")
+alien1 = Alien("Zgyox", 3.0, True)
+astronaut1 = Astronaut("Francisca Pasare", 4.5, "Pamant")
+astronaut2 = Astronaut("Chiricuta Marina", 1.2, "Pamant")
+astronaut3 = Astronaut("Alhafez Nabil", -5.5, "Saturn")
 commander1 = Commander("Merealbe Briana", 100, "Pamant")
 
 print(alien1)

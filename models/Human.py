@@ -1,4 +1,4 @@
-from Character import Character
+from models.Character import Character
 
 
 class Human(Character):
@@ -11,6 +11,6 @@ class Human(Character):
 
     def fight(self, other):
         if isinstance(other, Human):
-            print("Humans cannot fight amongs eachother.")
+            print("Humans cannot fight among each other.")
         else:
             super().fight(other)
