@@ -4,7 +4,7 @@ from models.character import Character
 class Human(Character):
     def __init__(self, name, strength, planet):
         if not isinstance(planet, str):
-            raise TypeError("Name should be a string")
+            raise TypeError("Planet should be a string")
         super().__init__(name, strength)
         self._planet = planet
 

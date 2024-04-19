@@ -3,6 +3,8 @@ from models.character import Character
 
 class Alien(Character):
     def __init__(self, name, strength, advancedTech):
+        if not isinstance(advancedTech, bool):
+            raise ValueError("Test that providing a non-boolean type for advancedTech raises an error")
         super().__init__(name, strength)
         self._advancedTech = advancedTech
 

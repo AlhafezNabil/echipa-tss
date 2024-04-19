@@ -2,6 +2,9 @@ class Character:
     def __init__(self, name, strength):
         if not isinstance(name, str):
             raise TypeError("Name should be a string")
+        if not isinstance(strength, float) and not isinstance(strength, int):
+            raise TypeError("Strength should be a int")
+
         self._name = name
         self._strength = max(0, min(strength, 5))
 
