@@ -196,7 +196,7 @@ class TestAlienHuman(unittest.TestCase):
 You can create unit tests for the interaction methods like fight() to ensure that characters behave correctly in simulated battles.
 class TestCharacterInteraction(unittest.TestCase):
 
- 
+ ```plaintext
    def test_fight_winner(self):
         char1 = Character("Hero", 5)
         char2 = Character("Villain", 3)
@@ -212,6 +212,7 @@ class TestCharacterInteraction(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+```
 These tests should be a good starting point for building your test suite according to the principles discussed in the study you provided. They check for correct initialization, enforcement of attribute constraints, and proper method functioning, aligning with the study's methodology of using unit tests to validate OOP principles and class behaviors. Adjust the specific test logic based on the actual implementations and requirements of your fight() method or other class methods.
 
 
