@@ -88,14 +88,13 @@ echipa-tss/
 ## Evaluarea automată a principilor de OOP
 ## Testare unitară în Python
 
-	În cadrul acestei lucrări, ne concentrăm pe dezvoltarea unei metode de evaluare automată (AA) pentru un domeniu care prezintă unele provocări în evaluarea sa practică: programarea orientată pe obiecte (OOP). Pentru a evalua corectitudinea aplicării principiilor OOP într-o aplicație reală, ne folosim de testarea unitară. 
+   În cadrul acestei lucrări, ne concentrăm pe dezvoltarea unei metode de evaluare automată (AA) pentru un domeniu care prezintă unele provocări în evaluarea sa practică: programarea orientată pe obiecte (OOP). Pentru a evalua corectitudinea aplicării principiilor OOP într-o aplicație reală, ne folosim de testarea unitară. 
 	Accentul este pus pe încurajarea elevilor să înțeleagă și să aplice corect principiile OOP complexe, precum și pe capacitatea lor de a proiecta în mod adecvat clasele și relațiile dintre acestea. În acest sens, prezentăm un studiu de caz bazat pe o sarcină practică, în care elevii sunt solicitați să creeze personaje pentru un joc video. Această sarcină este remarcabilă prin faptul că este incrementală și abordează toate cele patru principii OOP într-un singur context.
 	Cele patru principii de OOP sunt: 
 	1.	Încapsularea constă în gruparea datelor și metodelor conexe într-o singură entitate (clasa). Încapsularea permite, de asemenea, ca codul să fie legat liber. Încapsularea permite modificarea datelor numai prin intermediul metodelor, ceea ce face codul mai robust. 
 	2.	Abstracția permite ascunderea membrilor, metodelor și implementării în interiorul clasei. Există trei cuvinte cheie asociate cu cât de ascunși sunt membrii clasei:
-
-	•	public - dacă membrul clasei este declarat public, atunci acesta poate fi accesat oriunde.
-	•	protected - dacă membrul clasei este declarat ca protected, atunci acesta poate fi accesat numai în cadrul clasei în sine și prin moștenirea claselor copil.
+	•public - dacă membrul clasei este declarat public, atunci acesta poate fi accesat oriunde.
+	•protected - dacă membrul clasei este declarat ca protected, atunci acesta poate fi accesat numai în cadrul clasei în sine și prin moștenirea claselor copil.
 	•	privat - dacă membrul clasei este declarat ca privat, atunci acesta poate fi accesat numai de clasa care definește membrul.
 	3.	Moștenirea este un principiu foarte util al OOP care construiește relații între clase. Acest lucru le permite să împărtășească membrii clasei și metodele. Moștenirea surprinde o relație „este-o” între clase. Vă permite să luați o clasă existentă și să o specializați și/sau să o extindeți
 	4.	Polimorfismul înseamnă că o metodă poate face față diferitelor tipuri de intrări. Apoi, același cod poate fi aplicat mai multor tipuri de date. Există două tipuri de polimorfism: supraîncărcare și suprascriere.
@@ -104,7 +103,7 @@ echipa-tss/
 	In continuare prezentăm un studiu de caz real al unei aplicații OOP — „implementarea personalor unui joc video, Supraviețuirea în Cosmos” — care aplică toate cele patru principii OOP pentru a rezolva acest singur scenariu.
 
 
-	Clasa Alien
+Clasa Alien
 	Atribute:
 	•	name: nume alien (ex: “Zyglorx”)
 	•	strength: nivel de forta [0-5]
