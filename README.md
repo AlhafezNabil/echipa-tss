@@ -126,16 +126,16 @@ Scopul nostru este să implementăm atât teste pentru gestionarea erorilor de t
 ![image](https://github.com/AlhafezNabil/echipa-tss/assets/94968546/f57f33ee-88c4-4048-851f-800396da0d90)
 
 
-## Report AI
-# Automatic Assessment of Object Oriented Programming Assignments with Unit Testing
+## Raport AI
+# Evaluarea automată a sarcinilor de programare orientată pe obiecte cu teste unitare
 
-This project aims to reproduce a study on the automatic assessment of object-oriented programming (OOP) assignments using unit testing, as found in the provided PDF document. The focus is on implementing unit tests for Python classes to evaluate the correct application of OOP principles.
+Acest proiect își propune să reproducă un studiu privind evaluarea automată a sarcinilor de programare orientată pe obiecte (OOP) utilizând teste unitare, așa cum se găsește în documentul PDF furnizat. Accentul este pus pe implementarea testelor unitare pentru clasele Python pentru a evalua aplicarea corectă a principiilor OOP.
 
-## Overview
+## Prezentare generală
 
-The study discusses the use of unit testing for automatic assessment of OOP principles in student programming assignments. It specifically uses Python and its `unittest` library to create and execute tests.
+Studiul discută despre utilizarea testării unitare pentru evaluarea automată a principiilor POO în temele de programare ale elevilor. Utilizează în mod specific Python și biblioteca sa unittest pentru a crea și executa teste.
 
-## Implementation
+## Implemantare
 
 ```python
 class Character:
