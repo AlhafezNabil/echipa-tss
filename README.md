@@ -125,6 +125,10 @@ Scopul nostru este să implementăm atât teste pentru gestionarea erorilor de t
 În aplicația noastră, nu avem doar clasa Alien, ci și alte clase precum Astronaut și Commander, care împărtășesc anumite caracteristici și metode. 
 
 
+ ## Diagrama UML
+![image](https://github.com/AlhafezNabil/echipa-tss/assets/94968546/f57f33ee-88c4-4048-851f-800396da0d90)
+
+
 ## Report AI
 # Automatic Assessment of Object Oriented Programming Assignments with Unit Testing
 
