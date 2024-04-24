@@ -7,79 +7,6 @@
 
 ### [DEMO](https://youtu.be/g8Dw-8hYT6w)
 
-## Features
-- **First feature**: something.
-
-## Technical Details
-- **Language**: Python 3.9.x
-
-## Running Tests
-- Ensure functionality by running unit tests structured in the tests directory. Execute the following command in the root directory:   
-`python -m unittest discover -s tests`
-
-
-## Project Structure
-
-```plaintext
-echipa-tss/
-│
-├── models/
-│   ├── __init__.py
-│   ├── alien.py
-│   ├── astronaut.py
-│   ├── character.py
-│   ├── commander.py
-│   └── human.py
-│
-│
-├── tests/
-│   ├── __init__.py
-│   └── unit/
-│       ├── __init__.py
-│       ├── constructor/
-│       │   ├── __init__.py
-│       │   ├── test_alien_constructor.py
-│       │   ├── test_astronaut_constructor.py
-│       │   ├── test_character_constructor.py
-│       │   ├── test_commander_constructor.py
-│       │   └── test_human_constructor.py
-│       │
-│       ├── fight_method/
-│       │   ├── __init__.py
-│       │   ├── test_character_fight_method.py
-│       │   └── test_human_fight_method.py
-│       │
-│       ├── greater_operator/
-│       │   ├── __init__.py
-│       │   ├── test_alien_greater_operator.py
-│       │   ├── test_character_greater_operator.py
-│       │   └── test_human_greater_operator.py
-│       │
-│       ├── inheritance/
-│       │   ├── __init__.py
-│       │   ├── test_alien_inheritance.py
-│       │   ├── test_astronaut_inheritance.py
-│       │   ├── test_character_inheritance.py
-│       │   ├── test_commander_inheritance.py
-│       │   └── test_human_inheritance.py
-│       │
-│       ├── properties/
-│       │   ├── __init__.py
-│       │   ├── test_alien_properties.py
-│       │   ├── test_astronaut_properties.py
-│       │   ├── test_character_properties.py
-│       │   ├── test_commander_properties.py
-│       │   └── test_human_properties.py
-│       │
-│       └── str/
-│           ├── __init__.py
-│           ├── test_alien_str.py
-│           ├── test_astronaut_str.py
-│           ├── test_character_str.py
-│           ├── test_commander_str.py
-│           └── test_human_str.py
-└──
-```
  # Evaluarea automată a principiilor de OOP și Testare unitară în Python
 
 În cadrul acestei lucrări, ne concentrăm pe dezvoltarea unei metode de evaluare automată (AA) pentru un domeniu care prezintă unele provocări în evaluarea sa practică: programarea orientată pe obiecte (OOP). Pentru a evalua corectitudinea aplicării principiilor OOP într-o aplicație reală, ne folosim de testarea unitară. 
@@ -134,6 +61,10 @@ Acest proiect își propune să reproducă un studiu privind evaluarea automată
 ## Prezentare generală
 
 Studiul discută despre utilizarea testării unitare pentru evaluarea automată a principiilor POO în temele de programare ale elevilor. Utilizează în mod specific Python și biblioteca sa unittest pentru a crea și executa teste.
+
+## Running Tests
+- Ensure functionality by running unit tests structured in the tests directory. Execute the following command in the root directory:   
+`python -m unittest discover -s tests`
 
 ## Implemantare
 
@@ -269,3 +200,68 @@ class Commander(Human):
     def __str__(self):
         crew_names = ', '.join([astronaut.name for astronaut in self._crew])
         return f"Commander {self.name} from {self.planet} with strength {self.strength} and with crew [{crew_names}]"
+```
+
+
+## Project Structure
+
+```plaintext
+echipa-tss/
+│
+├── models/
+│   ├── __init__.py
+│   ├── alien.py
+│   ├── astronaut.py
+│   ├── character.py
+│   ├── commander.py
+│   └── human.py
+│
+│
+├── tests/
+│   ├── __init__.py
+│   └── unit/
+│       ├── __init__.py
+│       ├── constructor/
+│       │   ├── __init__.py
+│       │   ├── test_alien_constructor.py
+│       │   ├── test_astronaut_constructor.py
+│       │   ├── test_character_constructor.py
+│       │   ├── test_commander_constructor.py
+│       │   └── test_human_constructor.py
+│       │
+│       ├── fight_method/
+│       │   ├── __init__.py
+│       │   ├── test_character_fight_method.py
+│       │   └── test_human_fight_method.py
+│       │
+│       ├── greater_operator/
+│       │   ├── __init__.py
+│       │   ├── test_alien_greater_operator.py
+│       │   ├── test_character_greater_operator.py
+│       │   └── test_human_greater_operator.py
+│       │
+│       ├── inheritance/
+│       │   ├── __init__.py
+│       │   ├── test_alien_inheritance.py
+│       │   ├── test_astronaut_inheritance.py
+│       │   ├── test_character_inheritance.py
+│       │   ├── test_commander_inheritance.py
+│       │   └── test_human_inheritance.py
+│       │
+│       ├── properties/
+│       │   ├── __init__.py
+│       │   ├── test_alien_properties.py
+│       │   ├── test_astronaut_properties.py
+│       │   ├── test_character_properties.py
+│       │   ├── test_commander_properties.py
+│       │   └── test_human_properties.py
+│       │
+│       └── str/
+│           ├── __init__.py
+│           ├── test_alien_str.py
+│           ├── test_astronaut_str.py
+│           ├── test_character_str.py
+│           ├── test_commander_str.py
+│           └── test_human_str.py
+└──
+```
