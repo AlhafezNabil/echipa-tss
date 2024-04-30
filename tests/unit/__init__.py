@@ -3,6 +3,7 @@ from io import StringIO
 import sys
 import time
 
+
 class ExtendedTestResult(unittest.TextTestResult):
     def __init__(self, stream, descriptions, verbosity):
         super().__init__(stream, descriptions, verbosity)
@@ -37,6 +38,7 @@ class ExtendedTestResult(unittest.TextTestResult):
         self.stream.write('\n')
         super().addFailure(test, err)
 
+
 def run_tests():
     suite = unittest.TestLoader().discover('tests', pattern='test_*.py')
     stream = StringIO()
@@ -55,6 +57,7 @@ def run_tests():
     print(f"Failures: {len(result.failures)}")
     print(f"Errors: {len(result.errors)}")
     print(f"Success: {result.testsRun - len(result.failures) - len(result.errors)}")
+
 
 if __name__ == "__main__":
     run_tests()
