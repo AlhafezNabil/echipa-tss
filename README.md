@@ -9,11 +9,31 @@
 
  # Evaluarea automată a principiilor de OOP și Testare unitară în Python
 
-În cadrul acestei lucrări, ne concentrăm pe dezvoltarea unei metode de evaluare automată (AA) pentru un domeniu care prezintă unele provocări în evaluarea sa practică: programarea orientată pe obiecte (OOP). Pentru a evalua corectitudinea aplicării principiilor OOP într-o aplicație reală, ne folosim de testarea unitară. 
+ În cadrul acestei lucrări, ne concentrăm pe dezvoltarea unei metode de evaluare automată (AA) pentru un domeniu care prezintă unele provocări în evaluarea sa practică: programarea orientată pe obiecte (OOP). Pentru a evalua corectitudinea aplicării principiilor OOP într-o aplicație reală, ne folosim de testarea unitară. 
+ Chiar dacă alte limbaje au framework-uri de testare bine stabilite, programarea orientată pe obiecte variază în funcție de specificul limbajului și de nevoile utilizatorilor. Un studiu de caz pe această temă permite adaptarea și rafinarea testelor la mediul particular în care sunt folosite.
+	Testele unitare pot fi construite în mod specific pentru a aborda nevoile și problemele întâlnite de studenții sau dezvoltatorii care utilizează un limbaj particular. Acest lucru duce la o îmbunătățire a procesului de învățare și asigură dezvoltarea abilităților practice.
+	Deși alte limbaje pot avea deja metode standardizate de testare, fiecare limbaj de programare are particularități unice care necesită abordări personalizate. Articolul poate demonstra eficiența testării automate în limbajul respectiv, oferind exemple relevante pentru comunitatea dezvoltatorilor.
 
 ## Scopul Lucrării
 
 Accentul este pus pe încurajarea elevilor să înțeleagă și să aplice corect principiile OOP complexe, precum și pe capacitatea lor de a proiecta în mod adecvat clasele și relațiile dintre acestea. În acest sens, prezentăm un studiu de caz bazat pe o sarcină practică, în care elevii sunt solicitați să creeze personaje pentru un joc video. Această sarcină este remarcabilă prin faptul că este incrementală și abordează toate cele patru principii OOP într-un singur context.
+
+## De ce este importanta aceasta lucrare
+Studiul pe care l-am ales, [Automatic Assessment of Object-Oriented Programming Assignments with Unit Testing in Python](https://onlinelibrary.wiley.com/doi/10.1002/cae.22642) de Laura Climent și Alejandro Arbelaez, este interesant și util în contextul testării unitare, din mai multe motive:
+
+1. Relevanță în lumea reală: Studiul abordează o problemă practică din programarea orientată pe obiecte (OOP), respectiv implementarea unor personaje de joc video. Astfel, studenții își pot aplica cunoștințele teoretice la provocări de codare reale, ceea ce face testarea mai relevantă.
+
+2. Acoperire cuprinzătoare a principiilor OOP: Evaluarea include toate cele patru principii de bază OOP: încapsularea, abstractizarea, moștenirea și polimorfismul. Abordarea incrementală permite studenților să înțeleagă și să aplice aceste concepte în mod gradual.
+
+3. Orientare specifică spre Python: În timp ce multe lucrări anterioare se concentrează pe Java, studiul de față pune accent pe Python, reflectând popularitatea sa în creștere. Autorii folosesc biblioteca unittest, ceea ce face ca materialul să fie aplicabil direct pentru studenții și instructorii care lucrează cu acest limbaj.
+
+4. Evaluare automată: Automatizarea procesului de evaluare reduce timpul necesar pentru corectarea manuală, oferind în același timp feedback consistent. Acest lucru este important mai ales pentru cursurile mari sau pentru cele online, unde feedback-ul personalizat este dificil de oferit.
+
+5. Evaluare și soluții detaliate: Autorii includ o diagramă UML, exemple practice de cod și îndrumări pentru testarea unitară, ajutând instructorii să înțeleagă structura temelor și oferind studenților feedback cuprinzător.
+
+6. Rezultate de învățare eficiente: Evaluările pozitive ale studenților și comparația dintre evaluările automate și cele manuale arată că automatizarea se aliniază bine cu evaluarea umană, întărind credibilitatea acestui proces.
+
+Acest studiu este interesant deoarece oferă un cadru solid care leagă învățarea teoretică de cea practică pentru OOP, în timp ce pune accent pe un limbaj de programare tot mai popular. Abordarea este practică pentru instructorii care doresc să evalueze în mod consistent concepte complexe.
 
 ## Cele Patru Principii de OOP
 
