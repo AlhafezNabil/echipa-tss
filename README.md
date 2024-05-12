@@ -18,7 +18,7 @@
 
 Accentul este pus pe încurajarea elevilor să înțeleagă și să aplice corect principiile OOP complexe, precum și pe capacitatea lor de a proiecta în mod adecvat clasele și relațiile dintre acestea. În acest sens, prezentăm un studiu de caz bazat pe o sarcină practică, în care elevii sunt solicitați să creeze personaje pentru un joc video. Această sarcină este remarcabilă prin faptul că este incrementală și abordează toate cele patru principii OOP într-un singur context.
 
-## De ce este importanta aceasta lucrare:
+## De ce este importanta aceasta lucrare
 Studiul pe care l-am ales, [Automatic Assessment of Object-Oriented Programming Assignments with Unit Testing in Python](https://onlinelibrary.wiley.com/doi/10.1002/cae.22642) de Laura Climent și Alejandro Arbelaez, este interesant și util în contextul testării unitare, din mai multe motive:
 
 1. Relevanță în lumea reală: Studiul abordează o problemă practică din programarea orientată pe obiecte (OOP), respectiv implementarea unor personaje de joc video. Astfel, studenții își pot aplica cunoștințele teoretice la provocări de codare reale, ceea ce face testarea mai relevantă.
