@@ -9,7 +9,7 @@
 
  # Evaluarea automată a principiilor de OOP și Testare unitară în Python
 
- În cadrul acestei lucrări, ne concentrăm pe dezvoltarea unei metode de evaluare automată (AA) pentru un domeniu care prezintă unele provocări în evaluarea sa practică: programarea orientată pe obiecte (OOP). Pentru a evalua corectitudinea aplicării principiilor OOP într-o aplicație reală, ne folosim de testarea unitară. 
+ În cadrul acestei lucrări, ne concentrăm pe dezvoltarea unei metode de evaluare automată pentru un domeniu care prezintă unele provocări în evaluarea sa practică: programarea orientată pe obiecte (OOP). Pentru a evalua corectitudinea aplicării principiilor OOP într-o aplicație reală, ne folosim de testarea unitară. 
  Chiar dacă alte limbaje au framework-uri de testare bine stabilite, programarea orientată pe obiecte variază în funcție de specificul limbajului și de nevoile utilizatorilor. Un studiu de caz pe această temă permite adaptarea și rafinarea testelor la mediul particular în care sunt folosite.
 	Testele unitare pot fi construite în mod specific pentru a aborda nevoile și problemele întâlnite de studenții sau dezvoltatorii care utilizează un limbaj particular. Acest lucru duce la o îmbunătățire a procesului de învățare și asigură dezvoltarea abilităților practice.
 	Deși alte limbaje pot avea deja metode standardizate de testare, fiecare limbaj de programare are particularități unice care necesită abordări personalizate. Articolul poate demonstra eficiența testării automate în limbajul respectiv, oferind exemple relevante pentru comunitatea dezvoltatorilor.
